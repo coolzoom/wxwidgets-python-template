@@ -13,7 +13,7 @@ For the "C++ version", visit [this repository](https://github.com/cfgnunes/wxwid
 This section assumes Ubuntu 18.04, but the procedure is similar for other Linux distributions. The prerequisites to build the source is to install the following packages:
 
 ```sh
-sudo apt -y install python3-wxgtk4.0
+sudo apt -y install make python3-pip python3-venv libgtk-3-dev
 ```
 
 ### Build and run the project
@@ -21,7 +21,7 @@ sudo apt -y install python3-wxgtk4.0
 To run the project, use:
 
 ```sh
-python3 src/main.py
+make run
 ```
 
 ## Built With
@@ -29,6 +29,10 @@ python3 src/main.py
 - [Python](https://www.python.org/) - Programming language used
 - [wxWidgets](https://www.wxwidgets.org/) - Open-Source GUI framework
 - [wxFormBuilder](https://github.com/wxFormBuilder/) - wxWidgets GUI-builder
+
+Other tools:
+
+- [GNU Make](https://www.gnu.org/software/make/) - A build automation tool
 
 ## Contributing
 
