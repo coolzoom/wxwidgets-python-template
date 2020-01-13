@@ -16,6 +16,6 @@ if __name__ == '__main__':
     app = wx.App(False)
     app.SetAppName("MyApp")
 
-    gui_frame_main = GuiFrameMain(None)
-    gui_frame_main.Show(True)
+    frame = GuiFrameMain(None)
+    frame.Show(True)
     app.MainLoop()
