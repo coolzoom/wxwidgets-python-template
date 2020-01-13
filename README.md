@@ -2,7 +2,7 @@
 
 If you like this project, please consider making a donation to support the developer. [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2EDNU6LPSCH6S)
 
-This is a [wxWidgets](https://www.wxwidgets.org/) Python template project using [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder).
+This is a [wxWidgets](https://www.wxwidgets.org/) Python template project using [wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder). For the "C++ version", visit [this repository](https://github.com/cfgnunes/wxwidgets-cpp-template).
 
 ## Getting Started
 
