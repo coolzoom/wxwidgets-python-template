@@ -2,5 +2,5 @@
 wxPython==4.0.7.post2
 
 # Linters
-flake8==3.7.9
-pylint==2.4.4
+flake8
+pylint
