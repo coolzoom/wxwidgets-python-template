@@ -10,7 +10,7 @@ For the "C++ version", visit [this repository](https://github.com/cfgnunes/wxwid
 
 ### Prerequisites
 
-This section assumes Ubuntu 18.04, but the procedure is similar for other Linux distributions. The prerequisites to build the source is to install the following packages:
+This section assumes Ubuntu 18.04 (also tested on Ubuntu 20.04), but the procedure is similar for other Linux distributions. The prerequisites to build the source is to install the following packages:
 
 ```sh
 sudo apt -y install make python3-pip python3-venv libgtk-3-dev
