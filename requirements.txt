@@ -1,6 +1,4 @@
-# Main packages
-wxPython
+# File used by Pip (if you use it)
+# to install the necessary dependencies for the project.
 
-# Linters
-flake8
-pylint
+wxPython
