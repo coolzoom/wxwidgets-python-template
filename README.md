@@ -8,7 +8,22 @@ For the "C++ version", visit [this repository](https://github.com/cfgnunes/wxwid
 
 ### Prerequisites
 
-This section assumes Ubuntu 18.04 (also tested on Ubuntu 20.04), but the procedure is similar for other Linux distributions. The prerequisites to build the source is to install the following packages:
+#### Using Conda (Recommended)
+
+```sh
+conda env create
+conda activate wxpython-env
+```
+
+#### Using Pip
+
+```sh
+pip install -r requirements.txt
+```
+
+#### Using Ubuntu
+
+This section assumes Ubuntu 18.04 (also tested on Ubuntu 20.04), but the procedure is similar for other Linux distributions.
 
 ```sh
 sudo apt -y install make python3-pip python3-venv libgtk-3-dev
@@ -19,7 +34,7 @@ sudo apt -y install make python3-pip python3-venv libgtk-3-dev
 To run the project, use:
 
 ```sh
-make run
+python3 src/main.py
 ```
 
 ## Built With
@@ -27,10 +42,6 @@ make run
 - [Python](https://www.python.org/) - Programming language used
 - [wxWidgets](https://www.wxwidgets.org/) - Open-Source GUI framework
 - [wxFormBuilder](https://github.com/wxFormBuilder/) - wxWidgets GUI-builder
-
-Other tools:
-
-- [GNU Make](https://www.gnu.org/software/make/) - A build automation tool
 
 ## Contributing
 
