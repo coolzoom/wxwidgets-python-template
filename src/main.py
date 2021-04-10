@@ -11,6 +11,10 @@ class GuiFrameMain(gui.FrameMain):
         wx.MessageBox("Hello, World!", "MyApp", wx.OK | wx.ICON_INFORMATION)
         event.Skip(False)
 
+    def cmbChanged( self, event ):
+        wx.MessageBox("Hello, World! COMBO box changed", "MyApp", wx.OK | wx.ICON_INFORMATION)
+        event.Skip(False)
+
 
 if __name__ == '__main__':
     app = wx.App(False)
